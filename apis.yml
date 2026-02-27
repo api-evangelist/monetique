@@ -1,0 +1,105 @@
+name: Monétique
+description: API specifications for payment and card processing services
+image: https://www.monetique.com/logo.png
+url: https://www.monetique.com
+created: '2024'
+modified: '2024'
+apis:
+- name: Monétique Payment API
+  description: Core API for processing card payments, authorizations, and transaction management
+  image: https://www.monetique.com/apis/payment-api-logo.png
+  humanURL: https://www.monetique.com/payment-api
+  baseURL: https://api.monetique.com/v1/payments
+  tags:
+  - payments
+  - transactions
+  - authorization
+  - cards
+  properties:
+  - type: Documentation
+    url: https://docs.monetique.com/payment-api
+  - type: OpenAPI
+    url: https://api.monetique.com/openapi/payment-api.yaml
+  - type: Authentication
+    url: https://docs.monetique.com/authentication
+  - type: RateLimits
+    url: https://docs.monetique.com/rate-limits
+- name: Monétique Card Management API
+  description: API for managing card lifecycle including issuance, activation, and blocking
+  image: https://www.monetique.com/apis/card-api-logo.png
+  humanURL: https://www.monetique.com/card-api
+  baseURL: https://api.monetique.com/v1/cards
+  tags:
+  - cards
+  - issuance
+  - management
+  - lifecycle
+  properties:
+  - type: Documentation
+    url: https://docs.monetique.com/card-api
+  - type: OpenAPI
+    url: https://api.monetique.com/openapi/card-api.yaml
+  - type: Sandbox
+    url: https://sandbox.monetique.com/cards
+- name: Monétique Fraud Detection API
+  description: Real-time fraud detection and risk scoring for transactions
+  image: https://www.monetique.com/apis/fraud-api-logo.png
+  humanURL: https://www.monetique.com/fraud-api
+  baseURL: https://api.monetique.com/v1/fraud
+  tags:
+  - fraud
+  - security
+  - risk
+  - detection
+  properties:
+  - type: Documentation
+    url: https://docs.monetique.com/fraud-api
+  - type: OpenAPI
+    url: https://api.monetique.com/openapi/fraud-api.yaml
+  - type: Webhooks
+    url: https://docs.monetique.com/webhooks/fraud
+- name: Monétique Reporting API
+  description: Transaction reporting, reconciliation, and analytics
+  image: https://www.monetique.com/apis/reporting-api-logo.png
+  humanURL: https://www.monetique.com/reporting-api
+  baseURL: https://api.monetique.com/v1/reports
+  tags:
+  - reporting
+  - analytics
+  - reconciliation
+  - settlements
+  properties:
+  - type: Documentation
+    url: https://docs.monetique.com/reporting-api
+  - type: OpenAPI
+    url: https://api.monetique.com/openapi/reporting-api.yaml
+common:
+- type: Portal
+  url: https://developer.monetique.com
+- type: SignUp
+  url: https://developer.monetique.com/signup
+- type: Login
+  url: https://developer.monetique.com/login
+- type: Support
+  url: https://support.monetique.com
+- type: Terms of Service
+  url: https://www.monetique.com/terms
+- type: Privacy Policy
+  url: https://www.monetique.com/privacy
+- type: Status
+  url: https://status.monetique.com
+- type: Pricing
+  url: https://www.monetique.com/pricing
+- type: Blog
+  url: https://blog.monetique.com
+maintainers:
+- FN: Monétique API Team
+  email: api-support@monetique.com
+  url: https://developer.monetique.com
+tags:
+- payments
+- cards
+- fraud detection
+- financial services
+- banking
+- fintech
