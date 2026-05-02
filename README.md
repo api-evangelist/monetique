@@ -1,97 +1,31 @@
-# Monétique (monetique)
-API specifications for payment and card processing services
+# Monetique (monetique)
 
-**URL:** [Visit APIs.json URL](https://www.monetique.com)
+Monétique is the French term for the electronic payment industry, encompassing payment cards, card processing, point-of-sale systems, and the financial services infrastructure that supports card-based transactions.
 
-## Tags:
+## Scope
 
- - payments, cards, fraud detection, financial services, banking, fintech
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
+
+## Tags
+
+- Cards
+- Financial Services
+- Fintech
+- Monetique
+- Payments
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Monétique Payment API
-Core API for processing card payments, authorizations, and transaction management
-
-**Human URL:** [https://www.monetique.com/payment-api](https://www.monetique.com/payment-api)
-
-
-#### Tags:
-
- - payments, transactions, authorization, cards
-
-#### Properties
-
-- [Documentation](https://docs.monetique.com/payment-api)
-- [OpenAPI](https://api.monetique.com/openapi/payment-api.yaml)
-- [Authentication](https://docs.monetique.com/authentication)
-- [RateLimits](https://docs.monetique.com/rate-limits)
-
-### Monétique Card Management API
-API for managing card lifecycle including issuance, activation, and blocking
-
-**Human URL:** [https://www.monetique.com/card-api](https://www.monetique.com/card-api)
-
-
-#### Tags:
-
- - cards, issuance, management, lifecycle
-
-#### Properties
-
-- [Documentation](https://docs.monetique.com/card-api)
-- [OpenAPI](https://api.monetique.com/openapi/card-api.yaml)
-- [Sandbox](https://sandbox.monetique.com/cards)
-
-### Monétique Fraud Detection API
-Real-time fraud detection and risk scoring for transactions
-
-**Human URL:** [https://www.monetique.com/fraud-api](https://www.monetique.com/fraud-api)
-
-
-#### Tags:
-
- - fraud, security, risk, detection
-
-#### Properties
-
-- [Documentation](https://docs.monetique.com/fraud-api)
-- [OpenAPI](https://api.monetique.com/openapi/fraud-api.yaml)
-- [Webhooks](https://docs.monetique.com/webhooks/fraud)
-
-### Monétique Reporting API
-Transaction reporting, reconciliation, and analytics
-
-**Human URL:** [https://www.monetique.com/reporting-api](https://www.monetique.com/reporting-api)
-
-
-#### Tags:
-
- - reporting, analytics, reconciliation, settlements
-
-#### Properties
-
-- [Documentation](https://docs.monetique.com/reporting-api)
-- [OpenAPI](https://api.monetique.com/openapi/reporting-api.yaml)
-
-## Common Properties
-
-- [Portal](https://developer.monetique.com)
-- [SignUp](https://developer.monetique.com/signup)
-- [Login](https://developer.monetique.com/login)
-- [Support](https://support.monetique.com)
-- [Terms of Service](https://www.monetique.com/terms)
-- [Privacy Policy](https://www.monetique.com/privacy)
-- [Status](https://status.monetique.com)
-- [Pricing](https://www.monetique.com/pricing)
-- [Blog](https://blog.monetique.com)
+No APIs have been documented under this index yet. This repository serves as a placeholder for tracking monétique-related API specifications, payment processors, and card services.
 
 ## Maintainers
 
-**FN:** Monétique API Team
-
-**Email:** api-support@monetique.com
+- **FN:** Kin Lane
+- **Email:** kin@apievangelist.com
