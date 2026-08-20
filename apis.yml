@@ -19,6 +19,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monetique.png
 tags:
   - Cards
+  - Financial-Services
+  - Fintech
+  - Monetique
+  - Payments
+tags_raw:
+  - Cards
   - Financial Services
   - Fintech
   - Monetique
