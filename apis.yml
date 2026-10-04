@@ -30,7 +30,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monetique.png
 tags:
   - Cards
-  - Financial-Services
+  - Financial Services
   - Fintech
   - Monetique
   - Payments
@@ -40,6 +40,7 @@ tags_raw:
   - Fintech
   - Monetique
   - Payments
+  - Financial-Services
 created: '2024'
 modified: '2026-04-28'
 specificationVersion: '0.23'
